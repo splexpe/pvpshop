@@ -45,7 +45,7 @@ class Main extends PluginBase implements Listener {
     "Poison (SPLASH)" => [438,27,1000,100],
     "Weakness (SPLASH)" => [438,35,1000,100],
     "Slowness (SPLASH)" => [438,17,1000,100]
-];
+  ];
 	
   public function onEnable(){
     $this->getServer()->getPluginManager()->registerEvents($this, $this);
