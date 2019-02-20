@@ -17,7 +17,7 @@ use pvpshop\Modals\network\{GuiDataPickItemPacket, ModalFormRequestPacket, Modal
 use pvpshop\Modals\windows\{CustomForm, ModalWindow, SimpleForm};
 use pocketmine\command\{Command, CommandSender, ConsoleCommandSender, CommandExecutor};
 
-use onebone\economyapi\Economy
+use onebone\economyapi\Economy;
 
 class Main extends PluginBase implements Listener {
   public $shop;
