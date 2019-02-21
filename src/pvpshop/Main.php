@@ -248,7 +248,7 @@ class Main extends PluginBase implements Listener {
 
   public function onCommand(CommandSender $player, Command $command, string $label, array $args) : bool{
     switch(strtolower($command)){
-      case "shop":
+      case "pshop":
         $this->sendMainShop($player);
         return true;
     }
