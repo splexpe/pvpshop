@@ -252,6 +252,6 @@ class Main extends PluginBase implements Listener {
         $this->sendMainShop($player);
         return true;
     }
-  }
+  }return false;
 
 }
