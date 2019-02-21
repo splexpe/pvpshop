@@ -250,6 +250,7 @@ class Main extends PluginBase implements Listener {
     switch(strtolower($command)){
       case "pshop":
         $this->sendMainShop($player);
+	return true;
     }
   }
 
